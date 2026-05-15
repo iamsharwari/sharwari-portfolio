@@ -1,0 +1,18 @@
+:root {
+
+    --bg-color: #050816;
+    --primary-color: #00f7ff;
+    --secondary-color: #a855f7;
+
+    --text-color: #ffffff;
+    --text-light: #bdbdbd;
+
+    --glass-bg: rgba(255, 255, 255, 0.05);
+
+    --shadow-glow:
+        0 0 10px rgba(0, 247, 255, 0.5),
+        0 0 20px rgba(0, 247, 255, 0.3);
+
+    --font-heading: 'Orbitron', sans-serif;
+    --font-body: 'Poppins', sans-serif;
+}
