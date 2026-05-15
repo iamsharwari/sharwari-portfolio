@@ -2257,3 +2257,102 @@ body {
         font-size: 1.1rem;
     }
 }
+
+/* =========================
+   HERO MOBILE FIX
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        text-align: center;
+
+        padding: 140px 7% 80px;
+
+        min-height: auto;
+    }
+
+    .hero-content {
+
+        width: 100%;
+    }
+
+    .hero h1 {
+
+        font-size: 3rem;
+
+        line-height: 1.2;
+    }
+
+    .hero h2 {
+
+        font-size: 2rem;
+    }
+
+    .hero p {
+
+        font-size: 1rem;
+
+        line-height: 1.8;
+    }
+
+    /* FLOATING ICONS */
+
+    .floating-card {
+
+        width: 90px;
+        height: 90px;
+    }
+
+    .floating-card i {
+
+        font-size: 2.2rem;
+    }
+
+    /* MOVE ICONS */
+
+    .card1 {
+
+        top: 38%;
+        left: 52%;
+    }
+
+    .card2 {
+
+        top: 43%;
+        right: 8%;
+    }
+
+    .card3 {
+
+        bottom: 15%;
+        left: 40%;
+    }
+
+    /* BUTTONS */
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 20px;
+    }
+
+    .hero-buttons a {
+
+        width: 260px;
+
+        text-align: center;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
